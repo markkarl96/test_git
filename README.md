@@ -1,12 +1,5 @@
-<style>
-    h1 {
-        color: red;
-    }
-</style>
-
 # Загаловок
 
-<hr>
 ## Загаловок 2
 
 Далеко-далеко за **словесными**,  
@@ -32,18 +25,12 @@
 
 ### **html использование**
 
-<style>
-    .block {
-        text-align: center;
-    }
-    .tx {
-        font-weight: bold;
-        color: red;
-    }
-</style>
+<h2>Заголовок html</h2>
+
+<hr>
 
 <a href="https://mail.ru">Ссылка</a>
 
-<div class="block">
-    <p class="tx">Какой то текст обзацем</p>
+<div>
+    <p>Какой то текст обзацем</p>
 </div>
