@@ -1,0 +1,6 @@
+# включает перенаправление
+RewriteEngine On
+# если запрос был не в public  (!^public)
+RewriteCond %{REQUEST_URI} !^public
+# перенаправит в public index.php
+RewriteRule ^(.*)$ public/$1 [L]
